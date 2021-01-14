@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <h3>Забрать домой</h3>
+        <div>
+            <img src="">
+            <div>
+                <p>Моник</p>
+                <p>Мальчик, 7 месяцев</p>
+            </div>
+        </div>
+        <p>Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы сможете забрать себе питомца.</p>
+        <input type="text" name="name" placeholder="Фамилия и имя" minlength="2" maxlength="56">
+        <p>Введите полное имя или фамилию</p>
+        <input type="tel" name="phone" placeholder="Номер телефона" required>
+        <p>Обязательное поле для заполнения</p>
+        <p>Вы не ввели номер телефона. Это поле обязательное.</p>
+        <textarea name="comments" placeholder="Замечания" maxlength="500"></textarea>
+        <p>Если у вас есть вопросы, можете позвонить нам:</p>
+        <ul>
+            <li><a href="tel:+375336237879">+375 (33) 6237879</a> Лена</li>
+            <li><a href="tel:+375297877791">+375 (29) 7877791</a> Ольга</li>
+            <li><a href="tel:+375295837015">+375 (29) 5837015</a> Рита</li>
+        </ul>
+        <div>
+            <button type="submit">Отправить</button>
+            <button type="button">Отмена</button>
+        </div>
+    </form>
+
+
+    <form>
+        <h3>Забрать на передержку</h3>
+        <div>
+            <img src="">
+            <div>
+                <p>Моник</p>
+                <p>Мальчик, 7 месяцев</p>
+            </div>
+        </div>
+        <p>Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы сможете забрать себе питомца на передержку.</p>
+        <input type="text" name="name" placeholder="Фамилия и имя" minlength="2" maxlength="56">
+        <input type="tel" name="phone" placeholder="Номер телефона" required>
+        <p>Обязательное поле для заполнения</p>
+        <p>Вы не ввели номер телефона. Это поле обязательное.</p>
+        <textarea name="comments" placeholder="Замечания" maxlength="500"></textarea>
+        <p>Если у вас есть вопросы, можете позвонить нам:</p>
+        <ul>
+            <li><a href="tel:+375336237879">+375 (33) 6237879</a> Лена</li>
+            <li><a href="tel:+375297877791">+375 (29) 7877791</a> Ольга</li>
+            <li><a href="tel:+375295837015">+375 (29) 5837015</a> Рита</li>
+        </ul>
+        <p>Наши волонтеры будут активно искать будущий дом хвостику, пока вы помогаете нам с передержкой.</p>
+        <p>Спасибо за помощь!</p>
+        <div>
+            <button type="submit">Отправить</button>
+            <button type="button">Отмена</button>
+        </div>
+    </form>
+
+    
+    <form>
+        <h3>Автопомощь</h3>
+        <h4>Заявка</h4>
+        <p>Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в транспортировке, мы позвоним вам.</p>
+        <input type="text" name="name" placeholder="Фамилия и имя" minlength="2" maxlength="56">
+        <input type="tel" name="phone" placeholder="Номер телефона" required>
+        <p>Обязательное поле для заполнения</p>
+        <p>Вы не ввели номер телефона. Это поле обязательное.</p>
+
+        <p>Выберите вид автопомощи</p>
+        <input type="checkbox" name="assistance" id="food-medicine" value="food-medicine">
+        <label for="food-medicine">Доставка еды, медикаментов и других небольших вещей</label>
+
+        <input type="checkbox" name="assistance" id="bulky-items" value="bulky-items">
+        <label for="bulky-items">Доставка сена или соломы, строительных материлов для будок и других крупногабаритных вещей</label>
+
+        
+        <input type="checkbox" name="assistance" id="cat-dog" value="cat-dog">
+        <label for="cat-dog">Транспортировка небольших собак и котов</label>
+
+        <input type="checkbox" name="assistance" id="dog" value="dog">
+        <label for="dog">Транспортировка больших собак</label>
+        
+        <textarea name="comments" placeholder="Замечания"></textarea>
+        <div>
+            <button type="submit">Отправить</button>
+            <button type="button">Отмена</button>
+        </div>
+
+    </form>
+
+
+    <form>
+        <h3>Волонтерство</h3>
+        <h4>Заявка</h4>
+        <p>Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь, мы позвоним вам.</p>
+        <input type="text" name="name" placeholder="Фамилия и имя" minlength="2" maxlength="56">
+        <input type="tel" name="phone" placeholder="Номер телефона" required>
+        <p>Обязательное поле для заполнения</p>
+        <p>Вы не ввели номер телефона. Это поле обязательное.</p>
+
+        <input type="radio" id="permanently" value="permanently" name="volunteering" checked>
+        <label for="permanently">Хочу помогать на постоянной основе (расписание можно подобрать так, как будет вам удобно)</label>
+        <input type="radio" id="sometimes" value="sometimes" name="volunteering">
+        <label for="sometimes">Готов помогать иногда. Хочу выбрать удобное для меня время</label>
+
+        <textarea name="comments" placeholder="Замечания"></textarea>
+        <div>
+            <button type="submit">Отправить</button>
+            <button type="button">Отмена</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>
