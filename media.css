@@ -1,5 +1,5 @@
 
-@media screen and (max-width:1366px) {
+@media screen and (max-width: 1366px) {
 
     .page__header {
         background-position: top left 538px;
@@ -123,4 +123,125 @@
     .page-wrapper {
         width: 1366px;
     }
+}
+
+@media screen and (max-width: 639px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .page__header {
+        padding: 0 30px 28px 30px;
+        width: 300px;
+        background-image: url(./images/dog\ 2.png);
+        background-position: top left 135px;
+    }
+
+    .page__menu_icon {
+        display: block;
+      }
+
+    .top-menu {
+        display: none;
+    }
+
+    .top-social__link_mobile {
+        width: 32px;
+        height: 32px;
+    }
+
+    .top-wrapper {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .page__menu {
+        padding-top: 24px;
+        padding-right: 0;
+        
+    }
+
+     .top-social {
+        
+        padding-top: 24px;
+     }
+
+     .top-social__item:nth-child(1) {
+        padding-right: 22px;
+      }
+
+     .promo-container{
+        padding-top: 20px;
+      }
+
+      .promo-container__title {
+        font-size: 30px;
+        line-height: 36px;
+      }
+
+      .promo-container__description {
+          font-size: 12px;
+          width: 211px;
+          margin-top: 0;
+      }
+
+      .promo-container__goal {
+          padding-top: 20px;
+          width: 158px;
+      }
+
+      .header-image_positioned {
+        width: 165px;
+        height: 157px;
+        left: 144px;
+        top: 251px;
+      }
+
+      .header-image_transparent1 {
+          top: 270px;
+          width: 175px;
+          height: 56px;
+      }
+
+      .header-image_transparent2 {
+          top: 326px;
+          width: 156px;
+          height: 31px;
+      }
+
+      .header-image_transparent3 {
+        width: 138px;
+        height: 31px;
+        top: 357px;
+        left: 79px;
+      }
+
+      .promo-container__details {
+          padding-top: 92px;
+          font-size: 16px;
+          line-height: 19px;
+          width: 300px;
+          margin: 0 auto;
+          text-align: center;
+      }
+
+      .button {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 40px;
+      }
+
+      .promo-container__button {
+          width: 194px;
+          padding: 0 19px 0 19px;
+          margin: 20px 53px 0 53px;
+          text-align: center;
+          box-sizing: border-box;
+
+                   
+      }
+      
 }

@@ -66,6 +66,10 @@
   padding-right:290px;
   }
 
+.page__menu_icon {
+    display: none;
+  }
+
 .top-menu__item:nth-child(odd) {
   padding-right: 28px;
 }
