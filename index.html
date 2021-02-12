@@ -10,11 +10,23 @@
     
 </head>
 <body class="page">
+    
     <header class="page__header">
         <div class="top-wrapper">
         <nav class="page__menu">
-            <a href="#" class="page__menu_icon"><img src="images/menu.png"></a>
-            <ul class="top-menu">
+            <p class="mobile-hamburger"><a href="#" class="page__menu_icon"><img src="images/menu.png"></a></p>
+            <div class="menu-mobile">
+                <ul class="menu-mobile-list">
+                    <li class="menu-mobile-list__item"><a class="menu-mobile-list__link" href="#help-types">Как помочь</a></li>
+                    <li class="menu-mobile-list__item"><a class="menu-mobile-list__link" href="#our-pets">Подопечные животные</a></li>             
+                
+                    <li class="menu-mobile-list__item"><a class="menu-mobile-list__link" href="#footer">О нас</a></li>           
+                    <li class="menu-mobile-list__item"><a class="menu-mobile-list__link" href="#subtitle">Контакты</a></li>  
+                </ul>  
+                <p class="close-menu">Закрыть</p>
+            </div>
+
+              <ul class="top-menu">
                 <li class="top-menu__item"><a class="top-menu__link" href="#help-types">Как помочь</a></li>
                 <li class="top-menu__item"><a class="top-menu__link" href="#our-pets">Подопечные животные</a></li>
             
@@ -30,21 +42,21 @@
                 <li class="top-social__item"><a class="top-social__link" target="_blank" href="https://www.instagram.com/animalsgrodno">
                     <img src="images/insta.svg" class="top-social__link_hover top-social__link_active top-social__link_mobile" alt="картинка социальной сети Инстаграм"></a></li>
         </ul>
-        </div>
-        
+        </div>     
+<div class="page-overlay"></div>
 
-<div class="promo-container">
-<h1 class="promo-container__title">Спаси жизнь</h1>
-<p class="promo-container__description">Благотворительное общественное объединение защиты животных</p>
-<p class="promo-container__goal">Наша цель: помощь бездомным животным. Также мы поддерживаем хвостиков, которые оказались в пункте отлова и временного содержания 
+    <div class="promo-container">
+        <h1 class="promo-container__title">Спаси жизнь</h1>
+        <p class="promo-container__description">Благотворительное общественное объединение защиты животных</p>
+        <p class="promo-container__goal">Наша цель: помощь бездомным животным. Также мы поддерживаем хвостиков, которые оказались в пункте отлова и временного содержания 
     в Гродно. </p>
-<p class="promo-container__details">У животных, находящихся в пункте отлова и временного содержания бродячих животных, есть всего несколько дней до усыпления...</p>
-<a class="promo-container__button button" href="#help-types">Хочу помочь</a>
-</div>
-<img class="header-image_positioned" alt="изображение рыжего кота" src="images/cat 1.png">
-<img class="header-image_transparent1" alt="первая часть фонового текста" src="images/first-part.png">
-<img class="header-image_transparent2" alt="вторая часть фонового текста" src="images/second-part.png">
-<img class="header-image_transparent3" alt="третья часть фонового текста" src="images/third-part.png">
+        <p class="promo-container__details">У животных, находящихся в пункте отлова и временного содержания бродячих животных, есть всего несколько дней до усыпления...</p>
+        <a class="promo-container__button button" href="#help-types">Хочу помочь</a>
+    </div>
+    <img class="header-image_positioned" alt="изображение рыжего кота" src="images/cat 1.png">
+    <img class="header-image_transparent1" alt="первая часть фонового текста" src="images/first-part.png">
+    <img class="header-image_transparent2" alt="вторая часть фонового текста" src="images/second-part.png">
+    <img class="header-image_transparent3" alt="третья часть фонового текста" src="images/third-part.png">
     </header>
 
   <main>
@@ -85,7 +97,7 @@
 
 
 <div class="separator" id="options">
-    <hr class="separator__line"> <img src="images/Frame 111.png" class="separator__image" alt="иконка с домом"> <hr class="separator__line">
+    <hr class="separator__line"> <img src="images/Frame 111.png" class="separator__image options-separator" alt="иконка с домом"> <hr class="separator__line">
 </div>
 
 <div class="options">
@@ -129,7 +141,7 @@
         <button class="animal-card__button_highlighted button">Забрать домой</button>
         <button class="animal-card__button">Забрать на передержку</button>
     </div>
-    <div class="animal-card"><img src="images/image 18.png" alt="изображение пса Саки" class="animal-card__image">
+    <div class="animal-card animal-card-main-page"><img src="images/image 18.png" alt="изображение пса Саки" class="animal-card__image">
         <p class="animal-card__name">Саки</p>
         <p class="animal-card__description_gray">Мальчик, 7 месяцев</p>
         <p class="animal-card__description">Веселый и очень игривый, ему так нужны ваша любовь и ласка. 
@@ -137,7 +149,7 @@
         <button class="animal-card__button_highlighted button">Забрать домой</button>
         <button class="animal-card__button">Забрать на передержку</button>
     </div>
-    <div class="animal-card"><img src="images/image 19.png" alt="изображение собаки Моники" class="animal-card__image">
+    <div class="animal-card animal-card-main-page"><img src="images/image 19.png" alt="изображение собаки Моники" class="animal-card__image">
         <p class="animal-card__name">Моника</p>
         <p class="animal-card__description_gray">Девочка, 4 месяца</p>
         <p class="animal-card__description">Девочке 4 месяца жила в ужасных условиях, бывшая хозяйка могла исчезнуть 
@@ -146,7 +158,7 @@
         <button class="animal-card__button_highlighted button">Забрать домой</button>
         <button class="animal-card__button">Забрать на передержку</button>
     </div>
-    <div class="animal-card"><img src="images/image 20.png" alt="изображение пса Андреантино" class="animal-card__image">
+    <div class="animal-card animal-card-main-page"><img src="images/image 20.png" alt="изображение пса Андреантино" class="animal-card__image">
         <p class="animal-card__name">Андреантино</p>
         <p class="animal-card__description_gray">Мальчик, 7 месяцев</p>
         <p class="animal-card__description">Веселый и очень игривый, ему так нужны ваша любовь и ласка.У него потрясающая 
@@ -162,9 +174,9 @@
     <p class="social-wrapper__text">Помочь быстрее пристроить хвостиков можно путем размещения наших постов у себя в соц сетях. Переходите на наши странички.</p>
     <p class="social-wrapper__list social-links">
     <a href="https://vk.com/animalsgrodno" target="_blank" class="social-links__item">
-        <img class="social-links__image social-links__image_hover social-links__image_active" alt="картинка социальной сети ВК" src="images/vk_yellow.svg"></a>
+        <img class="social-links__image animal-social-icon social-links__image_hover social-links__image_active" alt="картинка социальной сети ВК" src="images/vk_yellow.svg"></a>
     <a href="https://www.instagram.com/animalsgrodno" target="_blank" class="social-links__item">
-        <img class="social-links__image social-links__image_hover social-links__image_active" alt="картинка социальной сети Инстаграм" 
+        <img class="social-links__image animal-social-icon social-links__image_hover social-links__image_active" alt="картинка социальной сети Инстаграм" 
         src="images/insta_yellow.svg"></a>
     </p>
 </div>
@@ -172,8 +184,8 @@
 
 <section class="finance" id="finance">
     <div class="separator finance__separator">
-        <hr class="separator__line"> <img src="images/Frame 11.png" alt="иконка с ладонью и банковской картой" 
-        class="separator__image"> <hr class="separator__line">
+        <hr class="separator__line"> <img src="images/Frame 11.png" class=" separator__image finance__separator_image" 
+        alt="иконка с ладонью и банковской картой"> <hr class="separator__line">
     </div>
 
     <h2 class="finance__title">Финансовая поддержка</h2>
@@ -213,7 +225,7 @@
 
 <section class="support" id="support">
     <div class="separator support__separator">
-        <hr class="separator__line"> <img src="images/Frame 13.png" alt="иконка с собакой и миской" class="separator__image">
+        <hr class="separator__line"> <img src="images/Frame 13.png" alt="иконка с собакой и миской" class="separator__image support__separator_image">
          <hr class="separator__line">
     </div>
 
@@ -246,24 +258,110 @@
         <li class="support-list__item">Будки</li>
     </ul>
 </div>
+<div class="modal-wrapper">
 <p class="support__link"><a href="" class="support__link_text">Кому и куда передать?</a></p>
 
+<div class="modal-where">
+    <div class="modal-where__wrapper">
+    <div class="form__header">
+    <h3 class="form-title">Кому и куда передать?</h3>
+    <img src="./images/close.svg" class="where-close" alt="Крестик">
+    </div>
+
+    <p class="modal-where__subtitle">Чтобы передать купленные вещи, свяжитесь с нашими волонтерами. Вы сможете договориться о времени и месте встречи.</p>
+    <p class="modal-where__text">Если доставить сами не сможете - волонтеры вам помогут в доставке.</p>
+
+    <div class="modal-where__form-contacts">
+        <ul class="modal-where__list contacts-list">
+        <li><a class="modal-where__link" href="tel:+375336237879">+375 (33) 6237879</a> Лена</li>
+        <li><a class="modal-where__link" href="tel:+375297877791">+375 (29) 7877791</a> Ольга</li>
+        <li><a class="modal-where__link" href="tel:+375295837015">+375 (29) 5837015</a> Рита</li>
+        </ul>
+    </div>
+    </div>
+</div>
+</div>
+<div class="modal-overlay"></div>
+
 <div class="separator separator-auto" id="auto">
-    <hr class="separator__line"> <img src="images/Frame 14.png" alt="иконка с собакой в машине" class="separator__image">
+    <hr class="separator__line"> <img src="images/Frame 14.png" alt="иконка с собакой в машине" class="separator__image support__separator_image">
      <hr class="separator__line">
 </div>
+
+<div class="modal-wrapper">
+    <div class="modal-auto">
+        <form class="form-auto">
+            <div class="form__header">
+            <h3 class="form-title">Автопомощь</h3>
+            <img src="./images/close.svg" class="auto-close">
+            </div>
+            <h4 class="form-request">Заявка</h4>
+            <p class="form-auto__text">Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в транспортировке, мы позвоним вам.</p>
+            <label for="name">Фамилия и имя</label>
+            <input type="text" name="name" placeholder="Введите ваше имя и фамилию" minlength="2" maxlength="56" id="name">
+            <label for="phone">Номер телефона (только белорусский)</label>
+            <input type="tel" name="phone" placeholder="Введите ваш номер телефона" id="phone" required>
+            <p class="required-text">Обязательное поле для заполнения</p>
+            <label for="comments">Замечания</label>
+            <textarea name="comments" placeholder="Опишите, как вы сможете нам помочь и удобное время для вас" id="comments"></textarea>
+            <div class="form-buttons form-auto__buttons">
+                <button type="submit" class="button form-button">Отправить</button>
+                <button type="button" class="coloreless">Отмена</button>
+            </div>
+        </form>
+     </div>
+    </div>
 
 <div class="support-type">
-    <h2 class="support-type__title">Автопомощь</h2>
+    <h2 class="support-type__title support-type__title-auto">Автопомощь</h2>
     <p class="support-type__text support-type__text-auto">Важной помощью будет транспортировка. Необходимо отвозить животных в ветеринарную клинику в сопровождении 
         нашего волонтера или привозить еду. Если у вас есть автомобиль, немного свободного времени и доброе сердце - будем вам рады.</p>
-    <button  class="support-type__button button">Оставить заявку</button>
+    <button  class="support-type__button button auto-click">Оставить заявку</button>
 </div>
 
+
 <div class="separator separator-volunteering" id="volunteering">
-    <hr class="separator__line"> <img src="images/Frame 15.png" alt="иконка с ладонью" class="separator__image">
+    <hr class="separator__line"> <img src="images/Frame 15.png" alt="иконка с ладонью" class="separator__image support__separator_image">
      <hr class="separator__line">
 </div>
+
+<div class="modal-wrapper">
+    <div class="modal-volunteering">
+        <form class="form-volunteering">
+            <div class="form__header">
+            <h3 class="form-title">Волонтерство</h3>
+            <img src="./images/close.svg" class="volunteering-close">
+            </div>
+            <h4 class="form-request">Заявка</h4>
+            <p class="form-volunteering__text">Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь, мы позвоним вам.</p>
+            <label for="name">Фамилия и имя</label>
+            <input type="text" name="name" placeholder="Введите ваше имя и фамилию" id="name" minlength="2" maxlength="56">
+            <label for="phone">Номер телефона (только белорусский)</label>
+            <input type="tel" name="phone" placeholder="Введите ваш номер телефона" id="phone" required>
+            <p class="required-text volunteering__required-text">Обязательное поле для заполнения</p>
+            <!--<p>Вы не ввели номер телефона. Это поле обязательное.</p>-->
+            <div class="volunteering-options">
+                <label class="container-radio">
+                    <input type="radio" value="permanently" name="volunteering" checked>
+                    <span class="radio__text">Хочу помогать на постоянной основе (расписание можно подобрать так, как будет вам удобно)</span>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-radio">
+                    <input type="radio" value="sometimes" name="volunteering">
+                    <span class="radio__text">Готов помогать иногда. Хочу выбрать удобное для меня время</span>
+                    <span class="checkmark"></span>
+                </label>
+            </div>        
+            <label for="comments">Замечания</label>
+            <textarea name="comments" placeholder="Опишите, как вы сможете нам помочь и удобное время для вас" id="comments"></textarea>
+            <div class="form-buttons form-volunteering__buttons">
+                <button type="submit" class="button form-button">Отправить</button>
+                <button type="button" class="coloreless">Отмена</button>
+            </div>
+    
+        </form>
+        </div>
+    </div>
 
 <div class="volunteering">
     <div class="volunteering__images pets">
@@ -278,7 +376,7 @@
             Много опыта не нужно, все расскажем и поможем! Если Вы располагаете несколькими часами свободного времени, 
             проведите его с пользой! Главное условие - это Ваше совершеннолетие и любовь к животным!</p>
         <p class="support-type__text">Часто животным не хватает обычных прогулок и игры, они сидят в клетках и грустят.</p>
-        <button class="support-type__button button">Оставить заявку</button>
+        <button class="support-type__button button support-type__button_volunteering volunteering-click">Оставить заявку</button>
     </div>
 </div>
 </section>
@@ -367,16 +465,18 @@
         <li><a href="tel:+375297877791" class="contacts-list__item">+375 (29) 7877791</a>, Ольга</li>
         <li><a href="tel:+375295837015" class="contacts-list__item">+375 (29) 5837015</a>, Рита</li>
     </ul>
-    
+   
+    <div class="footer__social_wrapper">
    <p class="footer__social-text">Связаться с нами можно написав в соц. сетях.</p>
    <p class="footer__social-images">
-        <a href="https://vk.com/animalsgrodno" target="_blank" class="social-links__item">
+        <a href="https://vk.com/animalsgrodno" target="_blank" class="social-links__item social-links__item_first">
             <img src="images/vk_yellow.svg" class="social-links__image social-links__image_hover social-links__image_active"
             alt="картинка социальной сети ВК"></a>
         <a href="https://www.instagram.com/animalsgrodno" target="_blank" class="social-links__item">
             <img src="images/insta_yellow.svg" class="social-links__image social-links__image_hover social-links__image_active"
             alt="картинка социальной сети Инстаграм"></a>
    </p>
+   </div>
     </div>
 
    <div class="thanks">
@@ -401,6 +501,8 @@
 <p class="footer__privacy">© 2020 БООЗЖ "СПАСИ ЖИЗНЬ"</p>
 </footer>
 
+
+
 <script>
 var linkShow = document.querySelector(".show-more");
 var moreNews = document.querySelector(".additional-news");
@@ -423,5 +525,106 @@ linkHide.addEventListener("click", function(event) {
 )
 </script>
 
+<script>
+    var menuIcon = document.querySelector(".page__menu_icon");
+    var menuMobile = document.querySelector(".menu-mobile");    
+    var hamburger = document.querySelector(".mobile-hamburger");
+    var pageOverlay = document.querySelector(".page-overlay");
+    var closeLink = document.querySelector(".close-menu");
+
+    
+    menuIcon.addEventListener("click", function(event) {
+        event.preventDefault();
+        menuMobile.classList.add("menu-mobile-display");
+        menuIcon.classList.add("menu-displayed");
+        hamburger.classList.add("hamburger-wrapper");
+        pageOverlay.classList.add("overlay");
+        closeLink.classList.add("close-menu-show");
+        
+    }
+    )
+    
+    closeLink.addEventListener("click", function(event) {
+            event.preventDefault();
+            menuIcon.classList.remove("menu-displayed");
+            menuMobile.classList.remove("menu-mobile-display");
+            hamburger.classList.remove("hamburger-wrapper");
+            pageOverlay.classList.remove("overlay");
+            closeLink.classList.remove("close-menu-show");
+        
+        }
+    )
+    </script>
+
+<script>
+    var modalLink = document.querySelector(".support__link");
+    var whereShow = document.querySelector(".modal-where");    
+    var modalOverlay = document.querySelector(".modal-overlay");
+    var whereClose = document.querySelector(".where-close");
+   
+    
+    modalLink.addEventListener("click", function(event) {
+        event.preventDefault();
+        whereShow.classList.add("where-show");
+        modalOverlay.classList.add("modal-overlay-show");
+        
+    }
+    )
+    
+    whereClose.addEventListener("click", function(event) {
+            event.preventDefault();
+            whereShow.classList.remove("where-show");
+            modalOverlay.classList.remove("modal-overlay-show");
+    }
+    )
+    </script>
+
+<script>
+    var autoButton = document.querySelector(".auto-click");
+    var autoShow = document.querySelector(".modal-auto");    
+    var modalOverlay = document.querySelector(".modal-overlay");
+    var autoClose = document.querySelector(".auto-close");
+   
+    
+    autoButton.addEventListener("click", function(event) {
+        event.preventDefault();
+        autoShow.classList.add("auto-show");
+        modalOverlay.classList.add("modal-overlay-show");
+        
+    }
+    )
+    
+    autoClose.addEventListener("click", function(event) {
+            event.preventDefault();
+            autoShow.classList.remove("auto-show");
+            modalOverlay.classList.remove("modal-overlay-show");
+    }
+    )
+    </script>
+
+<script>
+    var volunteeringButton = document.querySelector(".volunteering-click");
+    var volunteeringShow = document.querySelector(".modal-volunteering");    
+    var modalOverlay = document.querySelector(".modal-overlay");
+    var volunteeringClose = document.querySelector(".volunteering-close");
+   
+    
+    volunteeringButton.addEventListener("click", function(event) {
+        event.preventDefault();
+        volunteeringShow.classList.add("volunteering-show");
+        modalOverlay.classList.add("modal-overlay-show");
+        
+    }
+    )
+    
+    volunteeringClose.addEventListener("click", function(event) {
+            event.preventDefault();
+            volunteeringShow.classList.remove("volunteering-show");
+            modalOverlay.classList.remove("modal-overlay-show");
+    }
+    )
+    </script>
+    
 </body>
 </html>
+

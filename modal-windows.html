@@ -6,6 +6,7 @@
     <title>Forms</title>
     <link rel="stylesheet" href="reset.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="media.css" type="text/css">
 </head>
 <body>
     <div class="modal-home">
@@ -18,7 +19,7 @@
             <label for="name">Фамилия и имя</label>
             <input type="text" name="name" placeholder="Введите ваше имя и фамилию" minlength="2" maxlength="56" id="name">
             <!--<p>Введите полное имя или фамилию</p>-->
-            <label for="phone">Номер телефона (только белорусский номер)</label>
+            <label for="phone">Номер телефона (только белорусский)</label>
             <input type="tel" name="phone" placeholder="Введите ваш номер телефона" id="phone" required>
             <p class="required-text">Обязательное поле для заполнения</p>
             <!--<p>Вы не ввели номер телефона. Это поле обязательное.</p>-->
@@ -33,7 +34,7 @@
             </ul>
             </div>
             <div class="form-buttons">
-                <button type="submit" class="button">Отправить</button>
+                <button type="submit" class="button form-button">Отправить</button>
                 <button type="button" class="coloreless">Отмена</button>
             </div>
         </form>
@@ -48,7 +49,7 @@
         <p class="form-home__subtitle">Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы сможете забрать себе питомца на передержку.</p>
         <label for="name">Фамилия и имя</label>
         <input type="text" name="name" placeholder="Введите ваше имя и фамилию" minlength="2" maxlength="56" id="name">
-        <label for="phone">Номер телефона (только белорусский номер)</label>
+        <label for="phone">Номер телефона (только белорусский)</label>
         <input type="tel" name="phone" placeholder="Введите ваш номер телефона" id="phone" required>
         <p class="required-text">Обязательное поле для заполнения</p>
         <!--<p>Вы не ввели номер телефона. Это поле обязательное.</p>-->
@@ -67,7 +68,7 @@
         <p>Спасибо за помощь!</p>
         </div>
         <div class="form-buttons">
-            <button type="submit" class="button">Отправить</button>
+            <button type="submit" class="button form-button">Отправить</button>
             <button type="button" class="coloreless">Отмена</button>
         </div>
     </form>
@@ -84,27 +85,13 @@
         <p class="form-auto__text">Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в транспортировке, мы позвоним вам.</p>
         <label for="name">Фамилия и имя</label>
         <input type="text" name="name" placeholder="Введите ваше имя и фамилию" minlength="2" maxlength="56" id="name">
-        <label for="phone">Номер телефона (только белорусский номер)</label>
+        <label for="phone">Номер телефона (только белорусский)</label>
         <input type="tel" name="phone" placeholder="Введите ваш номер телефона" id="phone" required>
         <p class="required-text">Обязательное поле для заполнения</p>
-        <!--<p>Вы не ввели номер телефона. Это поле обязательное.</p>-->
-        <!--<p>Выберите вид автопомощи</p>
-        <input type="checkbox" name="assistance" id="food-medicine" value="food-medicine">
-        <label for="food-medicine">Доставка еды, медикаментов и других небольших вещей</label>
-
-        <input type="checkbox" name="assistance" id="bulky-items" value="bulky-items">
-        <label for="bulky-items">Доставка сена или соломы, строительных материлов для будок и других крупногабаритных вещей</label>
-
-        
-        <input type="checkbox" name="assistance" id="cat-dog" value="cat-dog">
-        <label for="cat-dog">Транспортировка небольших собак и котов</label>
-
-        <input type="checkbox" name="assistance" id="dog" value="dog">
-        <label for="dog">Транспортировка больших собак</label>-->
         <label for="comments">Замечания</label>
         <textarea name="comments" placeholder="Опишите, как вы сможете нам помочь и удобное время для вас" id="comments"></textarea>
         <div class="form-buttons form-auto__buttons">
-            <button type="submit" class="button">Отправить</button>
+            <button type="submit" class="button form-button">Отправить</button>
             <button type="button" class="coloreless">Отмена</button>
         </div>
 
@@ -121,7 +108,7 @@
         <p class="form-volunteering__text">Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь, мы позвоним вам.</p>
         <label for="name">Фамилия и имя</label>
         <input type="text" name="name" placeholder="Введите ваше имя и фамилию" id="name" minlength="2" maxlength="56">
-        <label for="phone">Номер телефона (только белорусский номер)</label>
+        <label for="phone">Номер телефона (только белорусский)</label>
         <input type="tel" name="phone" placeholder="Введите ваш номер телефона" id="phone" required>
         <p class="required-text volunteering__required-text">Обязательное поле для заполнения</p>
         <!--<p>Вы не ввели номер телефона. Это поле обязательное.</p>-->
@@ -140,7 +127,7 @@
         <label for="comments">Замечания</label>
         <textarea name="comments" placeholder="Опишите, как вы сможете нам помочь и удобное время для вас" id="comments"></textarea>
         <div class="form-buttons form-volunteering__buttons">
-            <button type="submit" class="button">Отправить</button>
+            <button type="submit" class="button form-button">Отправить</button>
             <button type="button" class="coloreless">Отмена</button>
         </div>
 
@@ -149,14 +136,14 @@
 
     <div class="modal-where">
         <div class="modal-where__wrapper">
-        <div class="modal-where__header">
+        <div class="form__header">
         <h3 class="form-title">Кому и куда передать?</h3>
-        <img src="./images/close.svg" alt="Крестик">
+        <img src="./images/close.svg" class="where-close" alt="Крестик">
         </div>
-
+    
         <p class="modal-where__subtitle">Чтобы передать купленные вещи, свяжитесь с нашими волонтерами. Вы сможете договориться о времени и месте встречи.</p>
         <p class="modal-where__text">Если доставить сами не сможете - волонтеры вам помогут в доставке.</p>
-
+    
         <div class="modal-where__form-contacts">
             <ul class="modal-where__list contacts-list">
             <li><a class="modal-where__link" href="tel:+375336237879">+375 (33) 6237879</a> Лена</li>
@@ -166,6 +153,8 @@
         </div>
         </div>
     </div>
+
+    
     
 </body>
 </html>
