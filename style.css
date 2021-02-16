@@ -61,6 +61,12 @@
     background-position: top left 815px;
     width: 1146px;
     padding: 0px 387px 121px 387px;
+    animation: slide-left 2s ease;
+  }
+
+  @keyframes slide-left {
+    0% {background-position: top 0 right 0;} 
+    100% {background-position: top left 815px;}
   }
 
 .page__menu {
@@ -104,6 +110,14 @@
 
 .promo-container{
   padding-top: 69px;
+  animation: slide-right 2s ease 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes slide-right {
+  0% { opacity: 0; transform: translateX(-100%); }   
+  100% { opacity: 1; transform: translateX(0); }
 }
 
 .promo-container__title {
@@ -176,13 +190,21 @@
   position: absolute;
   top: 470px;
   left: 884px;
+  animation: slide-up 2s ease;
 }
+
+@keyframes slide-up {
+  0% {opacity: 0; transform: translateY(100%); } 
+  100% {opacity: 1; transform: translateY(0); }
+}
+
 
 .header-image_transparent1 {
   position: absolute;
   top: 374px;
   left: 277px;
   opacity: 0.5;
+  animation: slide-up 2s ease;
 }
 
 .header-image_transparent2 {
@@ -190,6 +212,7 @@
   top: 566px;
   left: 275px;
   opacity: 0.6;  
+  animation: slide-up 2s ease;
 }
 
 .header-image_transparent3 {
@@ -197,6 +220,7 @@
   top: 671px;
   left: 573px;
   opacity: 0.5;  
+  animation: slide-up 2s ease;
 }
 
 .help-description {
@@ -284,7 +308,9 @@
   width: 1130px;
   padding-left: 388px;
   padding-right: 388px;
+  animation: slide-up 2s ease;
 }
+
 
 .help-variants__item {
   text-align: center;
@@ -378,7 +404,14 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  animation: slide-up 2s ease;
 
+}
+
+.animal-card-main-page {
+  opacity: 0;  
+  animation: slide-up 2s ease 2s;
+  animation-fill-mode: forwards;
 }
 
 .animal-card__name {
@@ -388,6 +421,7 @@
   padding-top: 6px;
   padding-bottom: 8px;
   border-bottom: 1px solid rgba(214, 214, 214, 0.5);
+  
 }
 
 .animal-card__description_gray {
@@ -640,6 +674,7 @@ b {
   display: flex;
   padding: 40px 0px 35px 604px;
   align-items: center;
+  animation: slide-right 2s ease-in;
 }
 
 .news__title {
