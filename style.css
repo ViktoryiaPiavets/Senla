@@ -193,10 +193,15 @@
   position: absolute;
   top: 470px;
   left: 884px;
-  animation: slide-up 2s ease;
+  animation: slide-up-cat 2s ease;
 }
 
 @keyframes slide-up {
+  0% {opacity: 0; transform: translateY(100%); } 
+  100% {opacity: 0.5; transform: translateY(0); }
+}
+
+@keyframes slide-up-cat {
   0% {opacity: 0; transform: translateY(100%); } 
   100% {opacity: 1; transform: translateY(0); }
 }
@@ -206,24 +211,21 @@
   position: absolute;
   top: 374px;
   left: 277px;
-  opacity: 0.5;
-  animation: slide-up 2s ease;
+  animation: slide-up 2s ease forwards;
 }
 
 .header-image_transparent2 {
   position: absolute;
   top: 566px;
   left: 275px;
-  opacity: 0.6;  
-  animation: slide-up 2s ease;
+  animation: slide-up 2s ease forwards;
 }
 
 .header-image_transparent3 {
   position: absolute;
   top: 671px;
   left: 573px;
-  opacity: 0.5;  
-  animation: slide-up 2s ease;
+  animation: slide-up 2s ease forwards;
 }
 
 .help-description {
