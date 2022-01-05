@@ -184,6 +184,9 @@
   position: relative;
   z-index: 1;
   padding: 11px 33px;
+  animation: slide-right 2s ease 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 .header-image_positioned {
